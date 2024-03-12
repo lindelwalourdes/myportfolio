@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="chapter14.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order</title>
+</head>
+<body>
+    <h1>Lilo's Pizza Club</h1>
+
+<div id="orderForm">
+    <label>How many pizzas do you want? <br></br>
+        <input type="number" id="numPizzas" />
+    </label>
+    <br />
+    <br />
+    <label>Which pizza? <br></br>
+        <select id="typePizza"> 
+            <option value="cheese">Bestie Bacon</option>
+            <option value="pepperoni">Pasta Pizza</option>
+            <option value="pepperoni">So Cheesy </option>
+        </select>
+    </label>
+    <br />
+    <br />
+    <label>Where do you live? <br></br>
+        <select id="deliveryCity">
+            <option value="Cape Town">Cape Town</option>
+            <option value="Durban">Durban</option>
+            <option value="Jozi">Jozi</option>
+            <option value="Nelspruit">Nelspruit</option>
+        </select>
+    </label>
+        <br />
+        <br />
+
+        <button type="button" id="placeOrder">Place Order</button>
+        <script src="chapter14.js"></script>
+</div>
+<div id="displayTotal"></div>
+</body>
+</html>

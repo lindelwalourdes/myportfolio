@@ -1,0 +1,26 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url('pizzapp.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #cebfbf;
+}
+#orderForm {
+
+    background-color: #eeeeee;
+    border: 2px solid rgb(176, 176, 144);
+    border-radius: 15px;
+    padding: 8px;
+    margin: 8px;
+    box-shadow: 5px 5px 5px #888888;
+}
+#displayTotal {
+    margin-top:10%;
+    font-size: larger;
+    color: #aba7a7;
+}
