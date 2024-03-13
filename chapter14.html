@@ -8,35 +8,44 @@
 </head>
 <body>
     <h1>Lilo's Pizza Club</h1>
-
-<div id="orderForm">
-    <label>How many pizzas do you want? <br></br>
-        <input type="number" id="numPizzas" />
-    </label>
-    <br />
-    <br />
-    <label>Which pizza? <br></br>
-        <select id="typePizza"> 
-            <option value="cheese">Bestie Bacon</option>
-            <option value="pepperoni">Pasta Pizza</option>
-            <option value="pepperoni">So Cheesy </option>
-        </select>
-    </label>
-    <br />
-    <br />
-    <label>Where do you live? <br></br>
-        <select id="deliveryCity">
-            <option value="Cape Town">Cape Town</option>
-            <option value="Durban">Durban</option>
-            <option value="Jozi">Jozi</option>
-            <option value="Nelspruit">Nelspruit</option>
-        </select>
-    </label>
-        <br />
-        <br />
-
-        <button type="button" id="placeOrder">Place Order</button>
-        <script src="chapter14.js"></script>
+    <div id="orderForm">
+     <label>How many pizzas do you want?
+     <input type="number" id="numPizzas" />
+     </label>
+     <br />
+     <br />
+     <label>What kind of pizzas?
+     <select id="typePizza">
+     <option value="cheese">Cheese</option>
+     <option value="Sweet Chilli">Sweet Chilli</option>
+     <option value="Bacon">Bacon</option>
+     </select>
+     </label>
+     <br />
+     <br />
+     <label>Where do you live?
+     <select id="deliveryCity">
+    <option value="Jozi">Jozi</option>
+ <option value="Durban">Durban</option>
+ <option value="Cape Town">Cape Town</option>
+ </select>
+ </label>
+ <br />
+ <br />
+ <label>Is it your birthday?
+ <select id="birthday">
+ <option value="yes">Yes</option>
+ <option value="no">No</option>
+ </select>
+ </label>
+ <br />
+ <br />
+ <button type="button" id="placeOrder">Place
+Order</button>
+</div>
+<div id="displayTotal"></div>
+    
+ <script src="chapter14.js"></script>
 </div>
 <div id="displayTotal"></div>
 </body>
